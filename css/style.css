@@ -4,6 +4,12 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.text-center {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
 
 /* btn-primary Override */
 .btn-primary {
@@ -35,7 +41,40 @@ html, body {
   color: #fff;
   margin-top: -30px;
 }
+/* Icon Row */
+#iconRow {
+  padding: 60px 0;
+}
 
+/* Pics */
+#pics > #books, #notes {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  color: #fff;
+}
+#pics > #books {
+  background: url("../img/books.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  height: 450px;
+}
+#pics > #notes {
+  background: url("../img/notes.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  height: 450px;
+}
+#pics .overlay {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 /* Navigation */
 .custom-navigation {
@@ -67,4 +106,15 @@ html, body {
   display: inline-block;
   color: #fff;
   padding-right: 20px;
+}
+
+/* Footer */
+#footer {
+  background: black;
+  padding: 30px;
+  color: #fff;
+}
+
+#footer h4 {
+  font-size: 16px;
 }
