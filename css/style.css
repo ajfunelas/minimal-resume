@@ -51,6 +51,13 @@ ul {
   text-decoration: none;
   color: #fff;
 }
+#links > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+#links > li > a:hover {
+  color: #0666cb;
+}
 
 /* Icon Row */
 #iconRow {
@@ -132,8 +139,12 @@ ul {
 
 /* Media Queries */
 @media(max-width: 767px) {
-  /* Mobile Navigation */
+
+  #pics > #books, #notes {
+    display: block;
+    width: 100%;
   }
+
   #hero > #hero-text > h1 {
     font-size: 24px;
   }
@@ -142,8 +153,5 @@ ul {
     padding-top: 60px;
   }
 
-  #pics > #books, #notes {
-    display: block;
-    width: 100%;
-  }
+
 }
