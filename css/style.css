@@ -115,6 +115,15 @@ ul {
   width: 100%;
   z-index: 999999999;
 }
+/* #nav.shrink {
+  height: 40px;
+  transition: all ease .5s;
+  background: black;
+}
+#nav.shrink #logo {
+  padding: 10px;
+  transition: all ease .5s;
+} */
 
 .custom-navigation #logo {
   color: #fff;
