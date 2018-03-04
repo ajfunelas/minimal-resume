@@ -1,5 +1,6 @@
 /* Custom Stylesheet */
-
+/* Use "#" to select Id */
+/* Use "." to select a class */
 /* Font imports */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
@@ -151,6 +152,9 @@ ul {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
+  #logo span {
+    display: none;
+  }
 
 /* Footer */
 #footer {
@@ -173,7 +177,7 @@ ul {
 }
 
 /* Media Queries */
-@media(max-width: 767px) {
+@media(max-width: 629px) {
 
   #pics > #books, #notes {
     display: block;
@@ -189,4 +193,18 @@ ul {
   }
 
 
+  .custom-navigation #links > li {
+    font-size: 15px;
+  }
+
+
+}
+@media(min-width: 629px){
+  #logo:after {
+    content: "Abner Jr";
+    /* content: "AJ"; */
+    /* text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; */
+  }
 }
