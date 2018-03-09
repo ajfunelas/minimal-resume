@@ -78,6 +78,43 @@ ul {
   color: black;
   font-family: 'Raleway', sans-serif;
 }
+#bsLogo {
+  height: 75px;
+  width: 75px;
+  margin: 0px;
+  padding: 0px;
+}
+#psLogo {
+  height: 80px;
+  width: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+#jsLogo {
+  height: 80px;
+  width: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+#h5Logo {
+  height: 90px;
+  width: 90px;
+  margin: 0px;
+  padding: 0px;
+}
+#cssLogo {
+  height: 90px;
+  width: 90px;
+  margin: 0px;
+  padding: 0px;
+}
+#gitLogo {
+  height: 80px;
+  width: 90px;
+  margin: 0px;
+  padding: 0px;
+}
+
 
 /* Pics */
 #pics > #books, #notes {
