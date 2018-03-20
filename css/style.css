@@ -212,6 +212,9 @@ ul {
 #footer a:hover {
   color: #0666cb;
 }
+#copyright {
+  text-align: center;
+}
 
 /* Media Queries */
 @media(max-width: 629px) {
