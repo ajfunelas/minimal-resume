@@ -11,6 +11,20 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/navshrink.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script src="js/typed.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $(".type").typed({
+          strings: [
+          "Hello World",
+          "My name is Aj",
+          "I'm a Front-End Web Developer"
+          ]
+        })
+      })
+    </script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -19,8 +33,17 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Title -->
+    <title>Abner Jr</title>
   </head>
   <body>
+
+    <!-- Scripts -->
+
+
+
 
     <!-- Hero -->
     <div id="hero">
@@ -39,7 +62,10 @@
 
       <!-- Hero text -->
       <div id="hero-text">
-        <h1>Welcome to my Website</h1>
+        <h1 class="tlt">Welcome To My Website</h1>
+        <script>
+          $('.tlt').textillate();
+        </script>
         <button type="button" class="btn btn-primary"><a href="#">Learn More</a></button>
       </div>
     </div>
@@ -104,7 +130,6 @@
         </div>
       </div>
     </div>
-
     <div class="clearfix"></div>
 
     <!-- Footer -->
