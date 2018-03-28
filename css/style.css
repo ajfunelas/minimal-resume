@@ -27,7 +27,7 @@ ul {
 /* Hero */
 
 #hero {
-  background: url("../img/back-img.jpg");
+  background: url("../img/m-sml.jpg");
   background-size: cover;
   background-position: center bottom;
   height: 100%;
@@ -117,7 +117,7 @@ ul {
 
 
 /* Pics */
-#pics > #books, #notes {
+/* #pics > #books, #notes {
   display: inline-block;
   float: left;
   width: 50%;
@@ -144,7 +144,37 @@ ul {
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-size: 50px;
+} */
+
+
+
+#port {
+  text-align: center;
+  background: url("../img/port-img.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
 }
+#port h1 {
+  font-family: 'Raleway', sans-serif;
+  padding: 10px
+  margin: 0px;
+  color:#fff
+}
+#port p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  margin: 0;
+  color:#fff
+}
+
+/* #port .overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+} */
 
 /* Navigation */
 .custom-navigation {

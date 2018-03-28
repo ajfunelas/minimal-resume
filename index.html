@@ -33,8 +33,11 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hover.css">
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
+    <!-- Animate on Scroll -->
+    <link rel="stylesheet" href="plugins/aos/aos.css">
     <!-- Title -->
     <title>Abner Jr</title>
   </head>
@@ -73,42 +76,42 @@
     <!-- Icon Row -->
     <div class="container">
       <div class="row">
-        <div id="iconTitle" class="col sm-dev-padding text-center">My Skills</div>
+        <div id="iconTitle" class="col sm-dev-padding text-center" data-aos="fade-right">My Skills</div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" data-aos="fade-right">
       <div id="iconRow" class="row text-center">
         <div class="col-md-4 sm-dev-padding">
-          <img id="cssLogo" src="img/CSS3.svg" alt="cssLogo">
+          <img class="hvr-bounce-out"id="cssLogo" src="img/CSS3.svg" alt="cssLogo">
           <h2>CSS 3</h2>
         </div>
         <div class="col-md-4 sm-dev-padding">
-          <img id="h5Logo" src="img/html5-logo.png" alt="h5Logo">
+          <img class="hvr-float" id="h5Logo" src="img/html5-logo.png" alt="h5Logo">
           <h2>HTML 5</h2>
         </div>
         <div class="col-md-4 sm-dev-padding">
-          <img id="jsLogo" src="img/jsLogo.svg" alt="jsLogo">
+          <img class="hvr-buzz"id="jsLogo" src="img/jsLogo.svg" alt="jsLogo">
           <h2>Javascript</h2>
         </div>
       </div>
       <!-- 2nd Icon Row -->
       <div id="iconRow" class="row text-center">
         <div class="col-md-4 sm-dev-padding">
-          <img id="gitLogo" src="img/Octocat.jpg" alt="gitLogo">
+          <img class="hvr-wobble-top" id="gitLogo" src="img/Octocat.jpg" alt="gitLogo">
           <h2>Github</h2>
         </div>
         <div class="col-md-4 sm-dev-padding">
-          <img id="bsLogo" src="img/bootstrap-4.svg.jpg" alt="Bootlogo">
+          <img class="hvr-pulse" id="bsLogo" src="img/bootstrap-4.svg.jpg" alt="Bootlogo">
           <h2>Bootstrap</h2>
         </div>
         <div class="col-md-4 sm-dev-padding">
-          <img id="psLogo" src="img/psLogo.jpeg" alt="Photoshop Logo">
+          <img class="hvr-wobble-skew" id="psLogo" src="img/psLogo.jpeg" alt="Photoshop Logo">
           <h2>Photoshop</h2>
         </div>
       </div>
         </div>
     <!-- Pics -->
-    <div id="pics">
+    <!-- <div id="pics">
       <div id="books">
         <div class="overlay">
           <ul>
@@ -122,19 +125,40 @@
       <div id="notes">
         <div class="overlay">
           <ul>
-            <li>Step 1</li>
-            <li>Step 2</li>
-            <li>Step 3</li>
-            <li>Step 4</li>
+            <li>Code</li>
+            <li>Eat</li>
+            <li>Sleep</li>
+            <li>Repeat</li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="clearfix"></div>
+    <div class="clearfix"></div> -->
+
+    <!-- Portfolio -->
+    <div id="port" class"container-fluid">
+      <h1>Portfolio</h1>
+        <div class="container">
+          <div class="overlay">
+            <p>Highly motivated and dedicated developer <br/></p>
+            <p>Interested in a position that allows utilization of my skills <br/></p>
+            <p>and exhibits my capabilities to the greatest extent. <br/></p>
+            <p>Therby accomplishing both the organizations and my personal goals.</p>
+        </div>
+        </div>
+
+    </div>
 
     <!-- Footer -->
     <div id="footer" class="container-fluid">
       <p id="copyright">© 2018 by Abner Jr Funelas.</p>
     </div>
+    <script src="plugins/aos/aos.js"></script>
+    <script type="text/javascript"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      });
+    </script>
   </body>
 </html>
