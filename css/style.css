@@ -151,9 +151,9 @@ ul {
 
 #port {
   text-align: center;
-  background: url("../img/port-img.jpg");
+  background: url("../img/blu-cloud.jpg");
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   position: relative;
 }
 #port h1 {
