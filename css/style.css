@@ -8,12 +8,18 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .text-center {
   text-align: center;
 }
 ul {
   list-style: none;
+}
+canvas{
+  display: block;
+  vertical-align:bottom;
 }
 
 /* btn-primary Override */
@@ -27,12 +33,11 @@ ul {
 /* Hero */
 
 #hero {
-  background: url("../img/heroPlanet.png");
   background-size: cover;
   background-position: center bottom;
   height: 100%;
   width: 100%;
-  position: relative;
+  position: absolute;
 
 }
 #hero > #hero-text {
@@ -48,20 +53,25 @@ ul {
 
 #hero > #hero-text > h1 {
   color: #fff;
-  margin-top: -120px;
   font-family: 'Raleway', sans-serif;
 }
-#hero > #hero-text > button > a {
+/* #hero > #hero-text > button > a {
   text-decoration: none;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-}
+} */
 #links > li > a {
   text-decoration: none;
   color: #fff;
 }
 #links > li > a:hover {
   color: #0666cb;
+}
+#particles-js{
+  background: url("../img/heroPlanet.png");
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 /* Icon Row */
